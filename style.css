@@ -36,7 +36,8 @@ body {
 }
 
 .container {
-    max-width: 80%;
+    padding-top: 30px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -86,7 +87,7 @@ a:active {
 
 .card {
     display: flex; 
-    margin-right: 300px;      
+          
 }
 
 .info-card {
@@ -94,8 +95,14 @@ a:active {
     padding: 5px 35px;
     margin-bottom: 20px;
     border-radius: 20px;
+    margin-left: 40%;
 }
 
 .center {
     text-align: center;
+}
+
+.card-text {
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
